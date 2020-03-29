@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_details"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/tap"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_video_label_black_24dp"
+        android:drawableLeft="@drawable/ic_video_label_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Student Reg NO"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/stdname"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Student Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_wc_black_24dp"
+        android:drawableLeft="@drawable/ic_wc_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:text="Gender"
+        android:inputType="textPersonName" />
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="150dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/dprtmnt"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_home_black_24dp"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:text="Department"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/Spinner_department"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-35dp"/>
+
+    <TextView
+        android:id="@+id/session"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/roundeditext"
+        android:drawableStart="@drawable/ic_import_contacts_black_24dp"
+        android:drawableLeft="@drawable/ic_import_contacts_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:text="Session"
+        android:inputType="textPersonName" />
+
+
+    <Spinner
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/Spinner_sessions"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-35dp"/>
+
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/roundeditext"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+</LinearLayout>

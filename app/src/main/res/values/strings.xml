@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ALU Class Attendance App</string>
+    <string-array name="Spinner_department">
+        <item>Select Department</item>
+        <item>Computer Science</item>
+        <item>Global Challenges</item>
+        <item>IBT</item>
+        <item>Entrepreneurship</item>
+    </string-array>
+
+    <string-array name="Spinner_sessions">
+        <item>Select Session</item>
+        <item>Morning Session</item>
+        <item>Afternoon Session</item>
+        <item>Evening Session</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
